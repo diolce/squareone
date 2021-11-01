@@ -16,12 +16,11 @@
 		510FBA4A273071FB000A1F70 /* TabBarSquareController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510FBA49273071FB000A1F70 /* TabBarSquareController.swift */; };
 		510FBA55273075FB000A1F70 /* AnnotationCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510FBA54273075FB000A1F70 /* AnnotationCity.swift */; };
 		510FBA5A27307729000A1F70 /* ItemCitiesModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510FBA5927307729000A1F70 /* ItemCitiesModelView.swift */; };
-		515D4D36272FF42A00FF8721 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515D4D35272FF42A00FF8721 /* RealmManager.swift */; };
+		510FBA6B27309349000A1F70 /* extension+UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510FBA6A27309349000A1F70 /* extension+UITableViewCell.swift */; };
 		51C85CC2272C9ECA0041830C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C85CC1272C9ECA0041830C /* AppDelegate.swift */; };
 		51C85CC4272C9ECA0041830C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C85CC3272C9ECA0041830C /* SceneDelegate.swift */; };
 		51C85CC6272C9ECA0041830C /* ListCitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C85CC5272C9ECA0041830C /* ListCitiesViewController.swift */; };
 		51C85CC9272C9ECA0041830C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C85CC7272C9ECA0041830C /* Main.storyboard */; };
-		51C85CCC272C9ECA0041830C /* Square1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51C85CCA272C9ECA0041830C /* Square1.xcdatamodeld */; };
 		51C85CCE272C9ED10041830C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C85CCD272C9ED10041830C /* Assets.xcassets */; };
 		51C85CD1272C9ED10041830C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C85CCF272C9ED10041830C /* LaunchScreen.storyboard */; };
 		51C85CDC272C9ED20041830C /* Square1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C85CDB272C9ED20041830C /* Square1Tests.swift */; };
@@ -37,7 +36,6 @@
 		51C85D54272DEA040041830C /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C85D53272DEA030041830C /* ErrorModel.swift */; };
 		51DA8219272F303700CD58BB /* ListCitiesModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA8218272F303700CD58BB /* ListCitiesModelView.swift */; };
 		51DA8221272F312D00CD58BB /* ListCitiesModelViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA8220272F312D00CD58BB /* ListCitiesModelViewBase.swift */; };
-		51DA822A272F3D5800CD58BB /* extension+UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA8229272F3D5800CD58BB /* extension+UITableViewCell.swift */; };
 		51DA823A272F3E5D00CD58BB /* CitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA8238272F3E5D00CD58BB /* CitiesTableViewCell.swift */; };
 		51DA823B272F3E5D00CD58BB /* CitiesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51DA8239272F3E5D00CD58BB /* CitiesTableViewCell.xib */; };
 		5E309C0220C701995E5B3213 /* Pods_Square1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBC286D9A6974BC758048CB /* Pods_Square1Tests.framework */; };
@@ -70,13 +68,12 @@
 		510FBA49273071FB000A1F70 /* TabBarSquareController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarSquareController.swift; sourceTree = "<group>"; };
 		510FBA54273075FB000A1F70 /* AnnotationCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationCity.swift; sourceTree = "<group>"; };
 		510FBA5927307729000A1F70 /* ItemCitiesModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCitiesModelView.swift; sourceTree = "<group>"; };
-		515D4D35272FF42A00FF8721 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		510FBA6A27309349000A1F70 /* extension+UITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "extension+UITableViewCell.swift"; sourceTree = "<group>"; };
 		51C85CBE272C9ECA0041830C /* Square1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Square1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C85CC1272C9ECA0041830C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51C85CC3272C9ECA0041830C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		51C85CC5272C9ECA0041830C /* ListCitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCitiesViewController.swift; sourceTree = "<group>"; };
 		51C85CC8272C9ECA0041830C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		51C85CCB272C9ECA0041830C /* Square1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Square1.xcdatamodel; sourceTree = "<group>"; };
 		51C85CCD272C9ED10041830C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51C85CD0272C9ED10041830C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51C85CD2272C9ED10041830C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,7 +94,6 @@
 		51C85D53272DEA030041830C /* ErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
 		51DA8218272F303700CD58BB /* ListCitiesModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCitiesModelView.swift; sourceTree = "<group>"; };
 		51DA8220272F312D00CD58BB /* ListCitiesModelViewBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCitiesModelViewBase.swift; sourceTree = "<group>"; };
-		51DA8229272F3D5800CD58BB /* extension+UITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "extension+UITableViewCell.swift"; path = "Square1/extension+UITableViewCell.swift"; sourceTree = SOURCE_ROOT; };
 		51DA8238272F3E5D00CD58BB /* CitiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewCell.swift; sourceTree = "<group>"; };
 		51DA8239272F3E5D00CD58BB /* CitiesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CitiesTableViewCell.xib; sourceTree = "<group>"; };
 		835574720FBB7592C921114E /* Pods-Square1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Square1.release.xcconfig"; path = "Target Support Files/Pods-Square1/Pods-Square1.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,12 +141,12 @@
 			path = TabBarController;
 			sourceTree = "<group>";
 		};
-		515D4D34272FF40E00FF8721 /* Realm */ = {
+		510FBA692730932A000A1F70 /* extensions */ = {
 			isa = PBXGroup;
 			children = (
-				515D4D35272FF42A00FF8721 /* RealmManager.swift */,
+				510FBA6A27309349000A1F70 /* extension+UITableViewCell.swift */,
 			);
-			path = Realm;
+			path = extensions;
 			sourceTree = "<group>";
 		};
 		51C85CB5272C9ECA0041830C = {
@@ -178,9 +174,8 @@
 		51C85CC0272C9ECA0041830C /* Square1 */ = {
 			isa = PBXGroup;
 			children = (
-				515D4D34272FF40E00FF8721 /* Realm */,
+				510FBA692730932A000A1F70 /* extensions */,
 				51DA8234272F3DA200CD58BB /* UI */,
-				51DA8228272F3D0600CD58BB /* extensions */,
 				51C85D21272DD9100041830C /* models */,
 				51C85D18272DD7900041830C /* ApiManager */,
 				51C85CC1272C9ECA0041830C /* AppDelegate.swift */,
@@ -189,7 +184,6 @@
 				51C85CCD272C9ED10041830C /* Assets.xcassets */,
 				51C85CCF272C9ED10041830C /* LaunchScreen.storyboard */,
 				51C85CD2272C9ED10041830C /* Info.plist */,
-				51C85CCA272C9ECA0041830C /* Square1.xcdatamodeld */,
 			);
 			path = Square1;
 			sourceTree = "<group>";
@@ -249,14 +243,6 @@
 			children = (
 			);
 			path = request;
-			sourceTree = "<group>";
-		};
-		51DA8228272F3D0600CD58BB /* extensions */ = {
-			isa = PBXGroup;
-			children = (
-				51DA8229272F3D5800CD58BB /* extension+UITableViewCell.swift */,
-			);
-			path = extensions;
 			sourceTree = "<group>";
 		};
 		51DA8234272F3DA200CD58BB /* UI */ = {
@@ -574,11 +560,9 @@
 				51C85CC2272C9ECA0041830C /* AppDelegate.swift in Sources */,
 				51DA8221272F312D00CD58BB /* ListCitiesModelViewBase.swift in Sources */,
 				510FBA5A27307729000A1F70 /* ItemCitiesModelView.swift in Sources */,
-				515D4D36272FF42A00FF8721 /* RealmManager.swift in Sources */,
-				51C85CCC272C9ECA0041830C /* Square1.xcdatamodeld in Sources */,
 				510FBA3027305A1E000A1F70 /* MapViewController.swift in Sources */,
+				510FBA6B27309349000A1F70 /* extension+UITableViewCell.swift in Sources */,
 				51C85CC4272C9ECA0041830C /* SceneDelegate.swift in Sources */,
-				51DA822A272F3D5800CD58BB /* extension+UITableViewCell.swift in Sources */,
 				51C85D1A272DD7A70041830C /* ApiManager.swift in Sources */,
 				51C85D54272DEA040041830C /* ErrorModel.swift in Sources */,
 				51C85D2B272DDA520041830C /* Item.swift in Sources */,
@@ -927,19 +911,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		51C85CCA272C9ECA0041830C /* Square1.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				51C85CCB272C9ECA0041830C /* Square1.xcdatamodel */,
-			);
-			currentVersion = 51C85CCB272C9ECA0041830C /* Square1.xcdatamodel */;
-			path = Square1.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 51C85CB6272C9ECA0041830C /* Project object */;
 }
