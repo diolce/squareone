@@ -6,7 +6,7 @@ target 'Square1' do
   use_frameworks!
 
   # Pods for Square1
-  pod 'RealmSwift' 10.0.0
+  pod 'RealmSwift'
 
   target 'Square1Tests' do
     inherit! :search_paths
